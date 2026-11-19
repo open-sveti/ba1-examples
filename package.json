@@ -8,7 +8,7 @@
     "tailwind/"
   ],
   "dependencies": {
-    "@awesome.me/buildawesome": "^4.0.0-0",
+    "@awesome.me/buildawesome": "^4.0.0-alpha.11",
     "@sveti/ba1-config": "^1.5.4"
   },
   "--- DEV ONLY": "Z-A",
@@ -20,8 +20,8 @@
     "build": "npm run cli -- build"
   },
   "devDependencies": {
-    "prettier-plugin-jinja-template": "^2.1.0",
-    "serve": "^14.2.7"
+    "prettier-plugin-jinja-template": "^2.2.0",
+    "serve": "^14.2.8"
   },
   "--- SITE GLOBALS": "A-Z",
   "site": {
