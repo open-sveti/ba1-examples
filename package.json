@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@buildawesome.one/examples",
+  "name": "@sveti/one-examples",
   "version": "1.5.0",
   "license": "MIT",
   "type": "module",
@@ -9,12 +9,12 @@
   ],
   "dependencies": {
     "@awesome.me/buildawesome": "^4.0.0-0",
-    "@buildawesome.one/config": "^1.5.4"
+    "@sveti/one-config": "^1.5.4"
   },
   "--- DEV ONLY": "Z-A",
   "scripts": {
     "precli": "[ -t 1 ] && clear || true",
-    "cli": "BA_OPTIONS=\"--input ${IN:-blades} --config node_modules/@buildawesome.one/config/buildawesome.config.js\" npm -C .cli/ run",
+    "cli": "BA_OPTIONS=\"--input ${IN:-blades} --config node_modules/@sveti/one-config/buildawesome.config.js\" npm -C .cli/ run",
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"
